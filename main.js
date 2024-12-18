@@ -1,4 +1,4 @@
-//Practice 1 - Create HelloWorld Function
+//Practice 1 - Create HelloWorld Function:
 
 function createHelloWorld(){
     return function() {
@@ -7,7 +7,7 @@ function createHelloWorld(){
 };
 
 
-//Practice 2 - Create Counter
+//Practice 2 - Create Counter:
 
 function createCounter (n) {
     let count = n
@@ -17,4 +17,14 @@ function createCounter (n) {
 };
 
 
-//Practice 3 - 
+//Practice 3 - Reverse String:
+
+//Dataset:
+const str = "Hello World"
+
+//Solution:
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+
+console.log(reverseString(str)); //output = dlroW olleH
