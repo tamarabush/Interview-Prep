@@ -28,3 +28,17 @@ function reverseString(str) {
 }
 
 console.log(reverseString(str)); //output = dlroW olleH
+
+
+//Practice 4 - Check if code isPalindrome:
+
+//Dataset:
+const str1 = "racecar";
+const str2 = "hello";
+
+//Solution:
+
+function isPalindrome(str) {
+    let left = 0;
+    let right 
+}
